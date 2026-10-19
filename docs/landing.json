@@ -1,0 +1,60 @@
+{
+  "seo_title": "Mechanical keyboard sounds for macOS",
+  "seo_description": "SwitchClatter is a free, open-source menu bar app that plays synthesized mechanical switch sounds as you type on any Mac keyboard. Native, offline, MIT.",
+  "hero_title_line1": "Every keystroke,",
+  "hero_title_accent": "a satisfying clatter.",
+  "hero_sub": "SwitchClatter plays mechanical switch sounds as you type, in any app, on any keyboard. Pick a profile from the menu bar and set the volume. Free, open source and offline.",
+  "features_title": "Built to sound right.",
+  "features_sub": "Three synthesized switch profiles, low-latency playback and sensible muting, all in a small menu bar app.",
+  "features": [
+    {
+      "icon": "keyboard",
+      "title": "Works in every app",
+      "desc": "A listen-only event tap hears key presses system-wide, from the built-in keyboard or any external one. Key auto-repeat is ignored, so holding a key stays quiet."
+    },
+    {
+      "icon": "speaker",
+      "title": "Three switch profiles",
+      "desc": "Choose Linear thock, Clicky or Soft tactile. Each is synthesized on your Mac at launch, with separate voices for space, return, delete and modifier keys."
+    },
+    {
+      "icon": "sliders",
+      "title": "Natural, tunable sound",
+      "desc": "Pitch variance keeps fast typing from sounding repetitive. Optional stereo spread pans each key by its position, and release sounds can be switched off."
+    },
+    {
+      "icon": "bolt",
+      "title": "Low-latency playback",
+      "desc": "AVAudioEngine with a pool of 24 player nodes lets sounds overlap instead of cutting each other off. Audio restarts automatically when your output device changes."
+    },
+    {
+      "icon": "window",
+      "title": "Mutes when it should",
+      "desc": "Sounds stop while the screen is locked and while any app on your mute list is frontmost. Pick those apps from your running apps in Settings."
+    },
+    {
+      "icon": "lock",
+      "title": "Only reads key codes",
+      "desc": "SwitchClatter uses hardware key codes to choose a sound and stereo position. Typed characters are never inspected, logged or stored, and there are no network connections."
+    }
+  ],
+  "permissions_step": "Open System Settings, go to Privacy & Security, then Input Monitoring, and turn on SwitchClatter; the in-app button takes you straight there.",
+  "faq": [
+    {
+      "q": "Is SwitchClatter really free and open source?",
+      "a": "Yes. It is released under the MIT license and the full source is on GitHub. There are no accounts, subscriptions or ads, and an optional Support button links to Ko-fi if you want to chip in."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Only Input Monitoring, so it can hear key presses system-wide through a listen-only event tap. It does not ask for Accessibility, Screen Recording or Microphone access. Secure fields such as password inputs never deliver events to it."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Nothing is collected. Your preferences, such as profile, volume and mute list, are saved locally in the app's standard macOS settings on your Mac. Key characters are never read or stored, and the app makes no network connections."
+    },
+    {
+      "q": "Why isn't it notarized?",
+      "a": "Notarization requires a paid Apple Developer account, which this free project doesn't have. Right-click the app and choose Open once to launch it, or build it yourself from source with Xcode and XcodeGen."
+    }
+  ]
+}

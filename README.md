@@ -1,5 +1,7 @@
 # SwitchClatter
 
+**🌐 Website:** [turhe123.github.io/switch-clatter](https://turhe123.github.io/switch-clatter/)
+
 Plays satisfying mechanical keyboard click sounds as you type on any Mac keyboard.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -30,7 +32,17 @@ SwitchClatter is a free, open-source, 100% native, backend-free alternative to p
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="SwitchClatter menu bar popover" width="720"></p>
+
+<p align="center"><em>The SwitchClatter menu bar popover with the on/off toggle, switch profile picker (Linear thock, Clicky, Soft tactile), volume slider and a one-click Input Monitoring setup prompt.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="SwitchClatter Settings window, sound options" width="560"></p>
+
+<p align="center"><em>The Settings window&#x27;s Sound section: switch profile, volume, pitch variance, stereo spread, release and modifier sounds, and a test sound button.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-settings-general.png" alt="SwitchClatter Settings window, mute list and general options" width="560"></p>
+
+<p align="center"><em>Further down in Settings: a per-app mute list, launch at login, and a privacy note confirming the app only reads key codes.</em></p>
 
 ## Install
 
